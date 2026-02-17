@@ -1,0 +1,16 @@
+name: agreements_checkpoint
+config_version: 1.0
+
+validations:
+  - batch_request:
+      datasource_name: demo_db
+      data_asset_name: agreements
+    expectation_suite_name: agreements_suite
+
+action_list:
+  - name: store_validation_result
+    action:
+      class_name: StoreValidationResultAction
+  - name: update_data_docs
+    action:
+      class_name: UpdateDataDocsAction
