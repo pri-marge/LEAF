@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+
+# Jupyter / IPython
+.ipynb_checkpoints/
+
+# Great Expectations caches / temp
+great_expectations/uncommitted/
+great_expectations/plugins/
+great_expectations/profilers/
+
+# IDE / editor files
+.vscode/
+.idea/
+.DS_Store
