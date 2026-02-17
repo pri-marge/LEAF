@@ -1,0 +1,42 @@
+database:
+  host: localhost
+  name: demo_db
+  user: app_user
+  password: strongpassword
+  port: 5432
+
+project:
+  key: PRJ001
+
+schema:
+  agreements:
+    project_key: string
+    account_key: string
+    customer_key: string
+    portfolio_id: string
+    capital_outstanding: float
+    arrears: float
+    term: integer
+    start_date: datetime
+    maturity_date: datetime
+    payment_freq: string
+    payment_method: string
+
+  contact:
+    project_key: string
+    customer_key: string
+    contact_type: string
+    title: string
+    first_name: string
+    last_name: string
+    company_name: string
+    home_phone: string
+    mobile: float
+    email: string
+    address_line_1: string
+    address_line_2: string
+    address_line_3: string
+    postcode: string
+    gender: string
+    date_of_birth: datetime
+    date_of_death: datetime

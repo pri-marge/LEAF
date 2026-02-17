@@ -1,0 +1,4 @@
+project_key,account_key,customer_key,portfolio_id,capital_outstanding,arrears,term,start_date,maturity_date,payment_freq,payment_method
+PRJ001,ACC001,CUST001,PORT01,250000,0,300,2022-01-01,2047-01-01,MONTHLY,DD
+PRJ001,ACC002,CUST002,PORT01,180000,5000,240,2020-06-01,2040-06-01,MONTHLY,CARD
+PRJ001,ACC003,CUST003,PORT02,50000,1000,180,2025-01-01,2024-01-01,ANNUAL,CASH

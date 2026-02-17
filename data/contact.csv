@@ -1,0 +1,4 @@
+project_key,customer_key,contact_type,title,first_name,last_name,company_name,home_phone,mobile,email,address_line_1,address_line_2,address_line_3,postcode,gender,date_of_birth,date_of_death
+PRJ001,CUST001,M,Mr,John,Doe,,02079460000,447700900111,john.doe@email.com,10 Downing St,,,SW1A 2AA,M,1980-05-10,
+PRJ001,CUST002,J,Mrs,Jane,Smith,,02079460001,447700900112,jane.smith@email.com,221B Baker St,,,NW1 6XE,F,1990-02-20,
+PRJ001,CUST003,M,Mr,Bob,Brown,,ABC,123,invalid-email,Unknown Street,,,XXXX,UNKNOWN,2030-01-01,2000-01-01
